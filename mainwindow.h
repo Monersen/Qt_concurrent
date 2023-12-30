@@ -24,8 +24,6 @@ private slots:
 
     void on_pb_start_clicked();
 
-    void show_result( void );
-
 private:
     Ui::MainWindow *ui;
     uint32_t number = 0, countFinish = 0;

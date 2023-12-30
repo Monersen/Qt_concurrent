@@ -17,8 +17,8 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        examplerace.cpp
-        examplerace.h
+        ExampleRace.cpp
+        ExampleRace.h
 )
 
 
@@ -28,6 +28,6 @@ qt_add_executable(Concurrent
 )
 
 target_link_libraries(Concurrent PRIVATE Qt6::Widgets
-                                            Qt6::Core Qt6::Concurrent)
+                                        Qt6::Concurrent Qt6::Core)
 
 qt_finalize_executable(Concurrent)
